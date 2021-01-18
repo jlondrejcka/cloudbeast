@@ -3,12 +3,17 @@ module.exports = {
     'Getting Started': ['gettingStarted']
   },
   secondSidebar: {
-    'Big Ideas': ['mdx'],
-    'Businesses': ['mdx'],
-    'Technology': ['mdx']
+    'Big Ideas': ['templates/mdx'],
+    'Businesses': ['templates/mdx'],
+    'Technology': ['templates/mdx']
   },
-  thirdSidebar: {
-    'Health': ['healthHome'],
-    'Fitness': ['workoutStructure']
+  healthSidebar: {
+    'Health': ['health/healthHome'],
+    'Mind': ['templates/mdx'],
+    'Body': ['health/fitness/workoutStructure'],
+    'Relationships': ['templates/mdx']
+  },
+  glossarySidebar: {
+    'a-z': ['glossary/glossary']
   },
 };

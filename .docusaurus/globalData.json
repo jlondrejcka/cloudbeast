@@ -8,27 +8,40 @@
           "label": "Next",
           "isLast": true,
           "path": "/docs",
-          "mainDocId": "doc1",
+          "mainDocId": "templates/styleGuide",
           "docs": [
             {
-              "id": "doc1",
-              "path": "/docs/",
-              "sidebar": "someSidebar"
+              "id": "gettingStarted",
+              "path": "/docs/gettingStarted",
+              "sidebar": "firstSidebar"
             },
             {
-              "id": "doc2",
-              "path": "/docs/doc2",
-              "sidebar": "someSidebar"
+              "id": "glossary/glossary",
+              "path": "/docs/glossary/glossary",
+              "sidebar": "glossarySidebar"
             },
             {
-              "id": "doc3",
-              "path": "/docs/doc3",
-              "sidebar": "someSidebar"
+              "id": "health/fitness/workoutStructure",
+              "path": "/docs/health/fitness/workoutStructure",
+              "sidebar": "healthSidebar"
             },
             {
-              "id": "mdx",
-              "path": "/docs/mdx",
-              "sidebar": "someSidebar"
+              "id": "health/healthHome",
+              "path": "/docs/health/healthHome",
+              "sidebar": "healthSidebar"
+            },
+            {
+              "id": "templates/doc2",
+              "path": "/docs/templates/doc2"
+            },
+            {
+              "id": "templates/mdx",
+              "path": "/docs/templates/mdx",
+              "sidebar": "secondSidebar"
+            },
+            {
+              "id": "templates/styleGuide",
+              "path": "/docs/"
             }
           ]
         }

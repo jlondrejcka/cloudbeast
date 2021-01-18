@@ -1,16 +1,16 @@
 export default {
-  "title": "My Site",
+  "title": "Cloudbeast",
   "tagline": "The tagline of my site",
-  "url": "https://your-docusaurus-test-site.com",
+  "url": "https://jlondrejcka.github.io",
   "baseUrl": "/",
   "onBrokenLinks": "throw",
   "onBrokenMarkdownLinks": "warn",
   "favicon": "img/favicon.ico",
-  "organizationName": "facebook",
-  "projectName": "docusaurus",
+  "organizationName": "jlondrejcka",
+  "projectName": "cloudbeast",
   "themeConfig": {
     "navbar": {
-      "title": "My Site",
+      "title": "Cloudbeast",
       "logo": {
         "alt": "My Site Logo",
         "src": "img/logo.svg"
@@ -28,7 +28,7 @@ export default {
           "position": "left"
         },
         {
-          "href": "https://github.com/facebook/docusaurus",
+          "href": "https://github.com/jlondrejcka/cloudbeast",
           "label": "GitHub",
           "position": "right"
         }
@@ -63,12 +63,12 @@ export default {
             },
             {
               "label": "GitHub",
-              "href": "https://github.com/facebook/docusaurus"
+              "href": "https://github.com/jlondrejcka/cloudbeast"
             }
           ]
         }
       ],
-      "copyright": "Copyright © 2021 My Project, Inc. Built with Docusaurus."
+      "copyright": "Copyright © 2021 Cloudbeast, Built with Docusaurus."
     }
   },
   "presets": [

@@ -2,7 +2,7 @@ module.exports = {
   title: 'Cloudbeast',
   tagline: 'The tagline of my site',
   url: 'https://jlondrejcka.github.io',
-  baseUrl: '/cloudbeast/',
+  baseUrl: '/',
   onBrokenLinks: 'throw',
   onBrokenMarkdownLinks: 'warn',
   favicon: 'img/favicon.ico',

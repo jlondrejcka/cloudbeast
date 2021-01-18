@@ -4,47 +4,128 @@
   "label": "Next",
   "isLast": true,
   "docsSidebars": {
-    "someSidebar": [
+    "firstSidebar": [
       {
         "collapsed": true,
         "type": "category",
-        "label": "Docusaurus",
+        "label": "Getting Started",
         "items": [
           {
             "type": "link",
-            "label": "Style Guide",
-            "href": "/docs/"
-          },
+            "label": "Getting Started",
+            "href": "/docs/gettingStarted"
+          }
+        ]
+      }
+    ],
+    "secondSidebar": [
+      {
+        "collapsed": true,
+        "type": "category",
+        "label": "Big Ideas",
+        "items": [
           {
             "type": "link",
-            "label": "Document Number 2",
-            "href": "/docs/doc2"
-          },
-          {
-            "type": "link",
-            "label": "This is Document Number 3",
-            "href": "/docs/doc3"
+            "label": "Powered by MDX",
+            "href": "/docs/templates/mdx"
           }
         ]
       },
       {
         "collapsed": true,
         "type": "category",
-        "label": "Features",
+        "label": "Businesses",
         "items": [
           {
             "type": "link",
             "label": "Powered by MDX",
-            "href": "/docs/mdx"
+            "href": "/docs/templates/mdx"
+          }
+        ]
+      },
+      {
+        "collapsed": true,
+        "type": "category",
+        "label": "Technology",
+        "items": [
+          {
+            "type": "link",
+            "label": "Powered by MDX",
+            "href": "/docs/templates/mdx"
+          }
+        ]
+      }
+    ],
+    "healthSidebar": [
+      {
+        "collapsed": true,
+        "type": "category",
+        "label": "Health",
+        "items": [
+          {
+            "type": "link",
+            "label": "Health",
+            "href": "/docs/health/healthHome"
+          }
+        ]
+      },
+      {
+        "collapsed": true,
+        "type": "category",
+        "label": "Mind",
+        "items": [
+          {
+            "type": "link",
+            "label": "Powered by MDX",
+            "href": "/docs/templates/mdx"
+          }
+        ]
+      },
+      {
+        "collapsed": true,
+        "type": "category",
+        "label": "Body",
+        "items": [
+          {
+            "type": "link",
+            "label": "Structuring your workout",
+            "href": "/docs/health/fitness/workoutStructure"
+          }
+        ]
+      },
+      {
+        "collapsed": true,
+        "type": "category",
+        "label": "Relationships",
+        "items": [
+          {
+            "type": "link",
+            "label": "Powered by MDX",
+            "href": "/docs/templates/mdx"
+          }
+        ]
+      }
+    ],
+    "glossarySidebar": [
+      {
+        "collapsed": true,
+        "type": "category",
+        "label": "a-z",
+        "items": [
+          {
+            "type": "link",
+            "label": "Glossary",
+            "href": "/docs/glossary/glossary"
           }
         ]
       }
     ]
   },
   "permalinkToSidebar": {
-    "/docs/": "someSidebar",
-    "/docs/doc2": "someSidebar",
-    "/docs/doc3": "someSidebar",
-    "/docs/mdx": "someSidebar"
+    "/docs/gettingStarted": "firstSidebar",
+    "/docs/glossary/glossary": "glossarySidebar",
+    "/docs/health/fitness/workoutStructure": "healthSidebar",
+    "/docs/health/healthHome": "healthSidebar",
+    "/docs/templates/mdx": "secondSidebar"
   }
 }

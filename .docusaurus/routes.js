@@ -9,7 +9,7 @@ export default [
 },
 {
   path: '/blog',
-  component: ComponentCreator('/blog','62f'),
+  component: ComponentCreator('/blog','d4b'),
   exact: true,
 },
 {
@@ -39,12 +39,12 @@ export default [
 },
 {
   path: '/blog/tags/blog',
-  component: ComponentCreator('/blog/tags/blog','16e'),
+  component: ComponentCreator('/blog/tags/blog','36f'),
   exact: true,
 },
 {
   path: '/blog/tags/docusaurus',
-  component: ComponentCreator('/blog/tags/docusaurus','8e2'),
+  component: ComponentCreator('/blog/tags/docusaurus','cba'),
   exact: true,
 },
 {
@@ -69,27 +69,42 @@ export default [
 },
 {
   path: '/docs',
-  component: ComponentCreator('/docs','96b'),
+  component: ComponentCreator('/docs','4df'),
   
   routes: [
 {
   path: '/docs/',
-  component: ComponentCreator('/docs/','87d'),
+  component: ComponentCreator('/docs/','c02'),
   exact: true,
 },
 {
-  path: '/docs/doc2',
-  component: ComponentCreator('/docs/doc2','fd3'),
+  path: '/docs/gettingStarted',
+  component: ComponentCreator('/docs/gettingStarted','ea2'),
   exact: true,
 },
 {
-  path: '/docs/doc3',
-  component: ComponentCreator('/docs/doc3','e02'),
+  path: '/docs/glossary/glossary',
+  component: ComponentCreator('/docs/glossary/glossary','6cd'),
   exact: true,
 },
 {
-  path: '/docs/mdx',
-  component: ComponentCreator('/docs/mdx','955'),
+  path: '/docs/health/fitness/workoutStructure',
+  component: ComponentCreator('/docs/health/fitness/workoutStructure','138'),
+  exact: true,
+},
+{
+  path: '/docs/health/healthHome',
+  component: ComponentCreator('/docs/health/healthHome','c5a'),
+  exact: true,
+},
+{
+  path: '/docs/templates/doc2',
+  component: ComponentCreator('/docs/templates/doc2','6fb'),
+  exact: true,
+},
+{
+  path: '/docs/templates/mdx',
+  component: ComponentCreator('/docs/templates/mdx','4fc'),
   exact: true,
 },
 ]
