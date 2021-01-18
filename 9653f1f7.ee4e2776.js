@@ -1,0 +1,1 @@
+(window.webpackJsonp=window.webpackJsonp||[]).push([[20],{64:function(o){o.exports=JSON.parse('{"allTagsPath":"/cloudbeast/blog/tags","slug":"facebook","name":"facebook","count":1,"permalink":"/cloudbeast/blog/tags/facebook"}')}}]);
